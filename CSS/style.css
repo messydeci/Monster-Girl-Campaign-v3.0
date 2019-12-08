@@ -1,0 +1,31 @@
+body {
+	background-image: url(background2.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+* {
+	font-family: Georgia;
+}
+
+p {
+	text-align: justify;
+	font-size: 18px;
+}
+
+li {
+	text-align: justify;
+	font-size: 18px;
+	list-style-type: square;
+}
+
+.header {
+	text-align: justify;
+	align-content: justify;
+	border-bottom: solid thin black;
+}
