@@ -59,7 +59,7 @@ a:active {
 	list-style-type: none;
 	margin: 0;
 	padding: .25em;
-	display: inline-block;
+	display: inline;
 	border-style: solid;
 	border-width: thin;
 	border-color: LightGray;
