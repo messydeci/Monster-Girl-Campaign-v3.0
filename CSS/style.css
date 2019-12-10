@@ -1,12 +1,13 @@
 body {
-	background-image: url(background2.jpg);
+	background-image: url(../images/mountains1.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin-right: 15%;
 	margin-left: 15%;
-	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	color: LightGray;
 }
 
 * {
@@ -24,8 +25,49 @@ li {
 	list-style-type: square;
 }
 
+a:link {
+	text-decoration: underline;
+	color: LightGray;
+}
+
+a:visited {
+	text-decoration: underline;
+	color: LightBlue;
+}
+
+a:hover {
+	text-decoration: none;
+	background-color: LightGray;
+	color: black;
+}
+
+a:active {
+	text-decoration: underline;
+	background-color: LightGray;
+	color: black;
+}
+
+.backdrop {
+	height: 100%;
+	width: 80%;
+	background-color: black;
+	z-index:-1;
+	padding: 5%;
+}
+
+.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: .25em;
+	display: inline-block;
+	border-style: solid;
+	border-width: thin;
+	border-color: LightGray;
+	text-align: center;
+}
+
 .header {
 	text-align: justify;
 	align-content: justify;
-	border-bottom: solid thin black;
+	border-bottom: solid thin LightGray;
 }
