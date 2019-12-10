@@ -48,10 +48,10 @@ a:active {
 }
 
 .backdrop {
-	height: 100%;
+	height: auto;
+	max-height: auto;
 	width: 80%;
 	background-color: black;
-	z-index:-1;
 	padding: 5%;
 }
 
