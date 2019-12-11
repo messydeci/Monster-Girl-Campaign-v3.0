@@ -32,7 +32,7 @@ a:link {
 
 a:visited {
 	text-decoration: underline;
-	color: LightBlue;
+	color: CornflowerBlue;
 }
 
 a:hover {
@@ -57,8 +57,8 @@ a:active {
 
 .nav {
 	list-style-type: none;
-	margin: -.25em;
-	padding: .25em;
+	margin: -.1em;
+	padding: .2em;
 	display: inline-block;
 	border-style: solid;
 	border-width: thin;
