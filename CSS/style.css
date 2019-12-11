@@ -3,8 +3,8 @@ body {
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin-right: 15%;
-	margin-left: 15%;
+	margin-right: 10%;
+	margin-left: 10%;
 	margin-top: 0%;
 	margin-bottom: 0%;
 	color: LightGray;
@@ -47,6 +47,20 @@ a:active {
 	color: black;
 }
 
+table, tr, td {
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 2px;
+	border-color: LightGray;
+	color: LightGray;
+	text-align: justify-all;
+	padding-left: 5px;
+}
+
+tr:nth-child(even) {
+	background-color: DarkSlateGray;
+}
+
 .backdrop {
 	height: auto;
 	max-height: auto;
@@ -70,4 +84,8 @@ a:active {
 	text-align: justify;
 	align-content: justify;
 	border-bottom: solid thin LightGray;
+}
+
+.toprow {
+	font-weight: bold;
 }
